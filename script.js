@@ -173,7 +173,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     try {
       const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbwoutWeDtVyecWqFHLXhJtgss3lOTC1DNDKy8Kdfirv9ARtfIXM8_MAgclP22PqmDH2/exec", // <-- Replace this
+        "https://script.google.com/macros/s/AKfycbx1RcbI81xZ2kIDZg2k3mtan05nAKN5F22GuxB8IEftM3Uiv6-01ybu3lZGFNc4n_4isQ/exec", // <-- Replace this
         {
           method: "POST",
           body: data,
