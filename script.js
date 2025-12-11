@@ -173,7 +173,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     try {
       const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbx1RcbI81xZ2kIDZg2k3mtan05nAKN5F22GuxB8IEftM3Uiv6-01ybu3lZGFNc4n_4isQ/exec", // <-- Replace this
+        "https://script.google.com/macros/s/AKfycbw4h0jtz9EU1uynbxpV70cO-Ps4ib55tFOW0G9l2kQIj0HBhZY7_zwrk6CL3TL_lDPC6A/exec", // <-- Replace this
         {
           method: "POST",
           body: data,
@@ -198,3 +198,4 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
